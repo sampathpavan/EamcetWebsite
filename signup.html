@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>signup page</title>
+    <link rel="stylesheet" type="text/css" href="signup.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+<div class="signup-form">
+    <form action="/signupsubmit" method="GET">
+		<h2>Sign Up</h2>
+		<p class="hint-text">Register here for the best experience</p>
+        <div class="form-group">
+            <input type="text" class="form-control" name="username" placeholder="Username">
+        </div>
+        
+        <div class="form-group">
+        	<input type="email" class="form-control" name="email" placeholder="Email" required="required">
+        </div>
+
+        <div class="form-group">
+            <input type="text" class="form-control" name="place" placeholder="Place">
+        </div>
+
+		<div class="form-group">
+            <input type="password" class="form-control" name="pwd" placeholder="Password" required="required">
+        </div>     
+        
+		<div class="form-group">
+            <button type="submit" class="btn btn-success btn-lg btn-block">Sign Up/Register</button>
+        </div>
+        <div class="text-center">Already have an account? <a href="login.html">Login</a></div>
+    </form>
+</div>
+</body>
+</html>
